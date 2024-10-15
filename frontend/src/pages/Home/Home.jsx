@@ -4,6 +4,7 @@ import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
 import Footer from '../../components/Footer/Footer'
 import AppDownload from '../../components/AppDownload/AppDownload'
+import Navbar from '../../components/Navbar/Navbar'
 const Home = () => {
   const [category,setCategory]=useState("All");
   return (
