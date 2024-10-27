@@ -7,6 +7,8 @@ import Cart from './pages/Cart/Cart'
 import Order from './pages/PlaceOrder/Order'
 import Login from './components/Login/Login'
 import Footer from './components/Footer/Footer'
+import Verify from './pages/Verify/Verify'
+import MyOrders from './pages/Myorders/Myorders'
 const App = () => {
   const [showLogin,setShowLogin]=useState(false) 
   return (
@@ -18,6 +20,8 @@ const App = () => {
         <Route path='/' element={<Home/>}/>
         <Route path='/Cart' element={<Cart/>}/>
         <Route path='/Order' element={<Order/>}/>
+        <Route path='/verify' element={<Verify/>}></Route>
+        <Route path='/myorders' element={<MyOrders/>}></Route>
       </Routes>
       <Footer/>
     </div>

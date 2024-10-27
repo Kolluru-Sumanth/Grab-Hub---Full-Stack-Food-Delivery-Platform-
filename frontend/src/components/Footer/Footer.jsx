@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt="" />
-                <p>lorem ipsum is simply dummy text of yhe prinnting and typrsetting</p>
+                <p>Delicious Food at Your Doorstep, Anytime, Anywhere! Freshness Delivered Fast!</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
